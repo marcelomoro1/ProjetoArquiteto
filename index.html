@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Moro Arquitetura</title>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    <!--NAV BAR-->
+    <section class="section-main" id="home">
+    <nav id="nav">
+        <div class="nav-center">
+            <div class="nav-header">
+                <a href="#home">
+                    <img src="./assets/img/lucaslogo.png" alt="logo" class="logo">
+                </a>
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <!--Links-->
+            <div class="links-container">
+                <ul class="links">
+                    <li>
+                        <a href="#projetos" class="texto-links">Projetos</a>
+                    </li>
+                    <li>
+                        <a href="#sobre" class="texto-links">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#contato" class="texto-links">Contato</a>
+                    </li>
+                </ul>
+                <ul class="links-sociais">
+                    <li>
+                        <a target="_blank" href="https://www.instagram.com/lucasmoro_arquitetura/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://www.facebook.com/lucas.moro.545">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--IMAGENS TROCANDO-->
+    <div class="slider-frame">
+        <div class="slide-container">
+            <div class="image-container">
+                <img src="./assets/img/imglucas3.jpg" alt="imagem-1">
+            </div>
+            <div class="image-container">
+                <img src="./assets/img/imglucas1.jpg" alt="imagem-1">
+            </div>
+            <div class="image-container">
+                <img src="./assets/img/imglucas2.png" alt="imagem-1">
+            </div>
+            <div class="image-container">
+                <img src="./assets/img/imglucas4.png" alt="imagem-1">
+            </div>
+
+        </div>
+    </div>
+    </section>
+    <!--PROJETOS-->
+    <section class="section-center" id="projetos">
+        <div class="container-titulo">
+            <a href="./todosProjetos.html">
+            <h2 class="titulo">Projetos</h2>
+            </a>
+        </div>
+        <div class="container-galeria">
+            <div class="projeto">
+                <a href="./residencialAlta.html">
+                    <span class="img-content">Residencial Alta</span>
+                    <img src="./assets/img/imglucas2.png" alt="" class="img-projeto">
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="./construtora-X.html">
+                    <span class="img-content">Construtora X</span>
+                    <img src="./assets/img/imglucas1.jpg" alt="" class="img-projeto">
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="./edificioZ.html">
+                    <span class="img-content">Edificio Z</span>
+                    <img src="./assets/img/imglucas4.png" alt="" class="img-projeto">
+                </a>
+            </div>
+            <div class="projeto">
+                <a href="./escolaMunicipal.html">
+                    <span class="img-content">Escola Municipal</span>
+                    <img src="./assets/img/imglucas3.jpg" alt="" class="img-projeto">
+                </a>
+            </div>      
+        </div>
+        <button class="galeria-button">
+            <a href="./todosProjetos.html">
+                VER MAIS
+            </a>
+        </button>
+    </section>
+
+    <!--SOBRE-->
+    <section class="section-center" id="sobre">
+        <div class="container-sobre">
+            <span><h1>Lucas Moro </h1><h1> Arquiteto</h1></span>
+        </div>
+        <div class="container-arquiteto">
+            <div class="container-p">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus pariatur aliquam aliquid quia, eum temporibus quod nemo similique dolorum sapiente quo placeat fuga facilis, omnis accusamus. Similique maiores molestiae beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nest repellat molestiae dolores expedita est.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil cupiditate nam nobis, dolor deserunt quisquam in ipsa repudiandae suscipit autem nulla facilis delectus reiciendis, sint, harum eaque necessitatibus blanditiis! Adipisci.</p>
+            </div>
+            <img src="./assets/img/lucasfotoperfil.jpg" alt="fotoperfil" class="lucasfotoperfil">
+        </div>
+    </section>
+
+    <!--CONTATO-->
+    <section id="contato">
+        <div class="contato-container">
+            <h1>Contato</h1>
+            <div>
+                <form action="https://formsubmit.co/marcelopicoli86@gmail.com" method="POST" class="formulario">
+                    <label for="name"></label>
+                    <input placeholder="Nome" type="text" name="name" required id="name">
+                    <div class="linhadoform"></div>
+                    <label for="email"></label>
+                    <input placeholder="E-mail" type="email" name="email" required id="email">
+                    <div class="linhadoform"></div>
+                    <label for="cellphone"></label>
+                    <input placeholder="Telefone" type="text" name="cellphone" id="cellphone">
+                    <div class="linhadoform"></div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <label for="message"></label>
+                    <textarea name="messsage" placeholder="Mensagem" id="message"></textarea>
+                    <div class="linhadoform"></div>
+                    <button type="submit">Enviar<i class="fas fa-arrow-right"></i></button>
+               </form>
+               <div>
+                    <p>E-mail: lucasp.moro@gmail.com</p>
+                    <p>Telefone: (55) 55 9972-5550</p>
+                </div>
+            </div>
+            <div class="endereco">
+            <h2>Endereço</h2>
+            <p>Rua dos</p>
+            </div>
+        </div>
+    </section>
+
+    <!--BACK TO TOP-->
+     <a href="#home" class="top-link">
+            <i class="fas fa-arrow-up"></i>
+     </a>
+     <footer>
+        <div>
+            <p>&copy; <span id="date"></span> Lucas Moro Arquitetura - Desenvolvido por Marcelo Moro</p>
+        </div>
+     </footer>
+    <!--JS-->
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
