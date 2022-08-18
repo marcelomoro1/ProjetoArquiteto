@@ -55,6 +55,7 @@ header .btn{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
   }
   .btn-esquerda{
     z-index: 2;

@@ -150,11 +150,14 @@ header .btn{
     object-fit: cover;
     object-position: center;
   }
+  .projeto{
+    position: relative;
+  }
   .img-content{
     display: flex;
     position: absolute;
     height: 7rem;
-    width: 44.7%;
+    width: 100%;
     transition: 1s;
     color: transparent;
     justify-content: center;

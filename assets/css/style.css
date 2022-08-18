@@ -140,11 +140,17 @@
   object-fit: cover;
   object-position: center;
 }
+.projeto{
+  overflow: hidden;
+  display: block;
+  position: relative;
+}
 .img-content{
   display: flex;
   position: absolute;
   height: 7rem;
-  width: 90vw;
+  width: 100%;
+  background-size: cover;
   transition: 1s;
   color: transparent;
   justify-content: center;
